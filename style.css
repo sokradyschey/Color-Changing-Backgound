@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+}
+
+button {
+    padding: 10px;
+    background: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    height: 750px;
+}
